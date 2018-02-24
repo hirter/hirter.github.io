@@ -2,9 +2,9 @@
 title: Web
 permalink: index.html
 ---
-# Header 1
-Willkommen im Blog
-posts:
+# Willkommen im Blog
+
+<hr />
 <ul>
   {% for post in site.posts %}
     <li>
