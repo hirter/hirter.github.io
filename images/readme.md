@@ -1,0 +1,1 @@
+Verzeichnis mit allen Bildern
