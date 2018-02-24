@@ -14,7 +14,7 @@ posts:
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a> - {{post.date}}<br />
-      {{page.excerpt}}
+      {{post.excerpt}}
     </li>
   {% endfor %}
 </ul>
