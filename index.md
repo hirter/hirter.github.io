@@ -1,14 +1,9 @@
 ---
-title: My page
+title: Web
 permalink: index.html
 ---
 # Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
+Willkommen im Blog
 posts:
 <ul>
   {% for post in site.posts %}
