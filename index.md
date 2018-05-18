@@ -6,7 +6,7 @@ layout: default
 
 # Willkommen im Blog
 {% for post in site.posts %}
-
+  {{ post.url }}
 {% endfor %}
 
 <!--
