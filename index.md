@@ -6,7 +6,7 @@ layout: default
 
 # Willkommen im Blog
 {% for post in site.posts %}
-   <a href="{{ post.url }}">{{ post.title }}</a> - {{post.date | date: "%B %e, %Y"}}<br />
+   ## <a href="{{ post.url }}">{{ post.title }}</a> - {{post.date | date: "%B %e, %Y"}}
       {{post.excerpt}}
 {% endfor %}
 
