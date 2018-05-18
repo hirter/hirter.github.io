@@ -6,7 +6,8 @@ permalink: index.html
 
 <hr />
   {% for post in site.posts %}
+    <p>
       <a href="{{ post.url }}">{{ post.title }}</a> - {{post.date | date: "%B %e, %Y"}}<br />
       {{post.excerpt}}
-      <hr />
+    </p>
   {% endfor %}
