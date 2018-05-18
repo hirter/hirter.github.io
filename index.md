@@ -1,6 +1,7 @@
 ---
 title: Web
 permalink: index.html
+layout: default
 ---
 # Willkommen im Blog
 
